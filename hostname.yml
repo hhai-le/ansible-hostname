@@ -1,0 +1,5 @@
+---
+- hosts: all
+  tasks:
+  - name: update hostname
+    shell: "hostnamectl set-hostname {{hostvars[inventory_hostname].hostname}}"
