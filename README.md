@@ -1,1 +1,1 @@
-# ansible-hostname
+# update hostname via ansible
